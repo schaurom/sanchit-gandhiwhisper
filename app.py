@@ -8,8 +8,9 @@ from transformers.pipelines.audio_utils import ffmpeg_read
 import tempfile
 import os
 
-#MODEL_NAME = "openai/whisper-large-v2"
-MODEL_NAME = "openai/whisper-tiny"
+# Modell liegt hier: C:\Users\[USER]]\.cache\huggingface\hub\models--openai--whisper-large-v2
+MODEL_NAME = "openai/whisper-large-v2"
+#MODEL_NAME = "openai/whisper-tiny"
 BATCH_SIZE = 8
 FILE_LIMIT_MB = 1000
 YT_LENGTH_LIMIT_S = 3600  # limit to 1 hour YouTube files
